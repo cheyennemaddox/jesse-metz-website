@@ -134,6 +134,68 @@ header li {
     padding: 0px 0px 20px;
 }
 
+/* gallery */
+
+.gallery {
+    background-color: #264653;
+    padding: 0px 100px 20px 100px;
+}
+
+.gallery-title {
+    margin: 0px 200px;
+    border-bottom: 3px solid #f4f1de;
+    padding: 10px 0px;
+}
+
+.gallery-row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.gallery-row-1 h3 {
+    font-size: 40px;
+}
+
+.gallery-row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.gallery img {
+    max-width: 250px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    outline:3px solid #f4f1de;
+    outline-offset: 5px;
+}
+
+.gallery h3 {
+    color: #f4f1de;
+    padding: 20px;
+}
+
+/* contact */
+.contact {
+    background-color: #f4f1de;
+    padding: 50px 100px;
+}
+
+.contact ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.contact li {
+    padding: 5px;
+    text-decoration: none;
+}
+
+
 /* text editing */
 
 p {
@@ -173,7 +235,7 @@ h5 {
 }
 
 
-/* buttons */
+/* buttons and links */
 
 button {
     background-color: #264653;
@@ -187,5 +249,14 @@ button {
 
 .email {
     text-decoration: none;
-    color: #3a0ca3;
+    color: #264653;
+}
+
+.email:hover {
+    color: #81b29a;
+}
+
+.home-button {
+    text-decoration: none;
+    color: #f4f1de;
 }
