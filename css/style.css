@@ -10,6 +10,8 @@
 header {
     background: #264653;
     border-bottom: 5px solid #f4f1de;
+    position: sticky;
+    top: 0;
 }
 
 header p {
@@ -31,7 +33,7 @@ header p {
 
 .container {
     max-width: 1080px;
-    padding: 0 30px;
+    padding: 0 50px;
     margin: 0 auto;
 }
 
@@ -60,6 +62,8 @@ header li {
     padding: 10px;
     border-radius: 10px;
     margin: 10px 50px;
+    font-size: 50px;
+    color: #264653;
 }
 
 .titles {
@@ -69,37 +73,89 @@ header li {
     text-shadow: 2px 2px 4px #3d405b;
 }
 
+/* about me */
 .about-me {
     background-color: #264653;
-    padding: 120px 50px;
-    height: 400px;
+    height: auto;
 }
 
-.about-text {
-    margin: 50px 550px 50px 50px;
+.about {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-text p {
     color: white;
     text-shadow: 3px 3px 4px #3d405b;
+    padding: 10px 10px 10px 0px;
+}
+
+.about-me img {
+    max-width: 250px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* resume */
+.resume {
+    background-color: white;
+    padding: 40px 150px;
+}
+
+/* resume image, overview, skills */
+.resume-open {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 0px 20px;
+}
+
+.resume-img img {
+    max-width: 250px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.resume ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.resume li {
+    padding: 5px 0;
+}
+
+/* resume text editing */
+.resume p {
+    letter-spacing: .5px;
+    padding: 0px 0px 20px;
 }
 
 /* text editing */
 
-h1 {
-    font-size: 40px;
-    color: white;
-    background-color: #4361ee;
-    padding: 12px;
-    outline: 5px solid white;
-    outline-offset: 10px;
+p {
+    color: #264653;
+    font-size: 25;
+    font-weight: 900px;
 }
 
-h2 {
+h1 {
     font-size: 28px;
     color: #f4f1de;
 }
 
-h3 {
-    font-size: 50px;
+h2 {
+    ont-size: 30px;
     color: #264653;
+}
+
+h3 {
+    font-size: 30px;
+    color: #264653;
+    padding: 0px 0px 20px;
     
 }
 
@@ -107,17 +163,26 @@ h4 {
     font-size: 25px;
     padding: 10px 0px;
     letter-spacing: 3px;
+    color: white;
+}
+
+h5 {
+    font-size: 25px;
+    color: #264653;
+    padding: 40px 0px 12px;
 }
 
 
 /* buttons */
 
 button {
-    background-color: #white;
-    color: #3a0ca3;
+    background-color: #264653;
+    color: #f4f1de;
     padding: 14px 30px;
     text-decoration: none;
     margin-top: 32px;
+    border-radius: 10px;
+    min-width: 200px;
 }
 
 .email {

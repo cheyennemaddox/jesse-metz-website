@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jesse Metz</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa"/>
 </head>
@@ -12,12 +12,12 @@
 <body>
     <header>
         <div class="container cont-nav">
-            <h2>Jesse Metz</h2>
+            <h1>Jesse Metz</h1>
             <nav>
                 <ul>
-                    <li><a class="nav-item nav-link" href="#">About Me</a></li>
-                    <li><a class="nav-item nav-link" href="#">Resume</a></li>
-                    <li><a class="nav-item nav-link" href="#">Pictures</a></li>
+                    <li><a class="nav-item nav-link" href="#about-me">About Me</a></li>
+                    <li><a class="nav-item nav-link" href="#resume">Resume</a></li>
+                    <li><a class="nav-item nav-link" href="#">Gallery</a></li>
                     <li><a class="nav-item nav-link" href="#">Videos</a></li>
                     <li><a class="nav-item nav-link" href="#">Contact</a></li>
                 </ul>
@@ -42,15 +42,68 @@
          </section>
 
         <!-- about me section 1 -->
-        <section class="about-me" style="
-        background-image: url('images/jesse-about-me.jpg'), url('images/about-shape.png');
-        background-repeat: no-repeat, no-repeat;
-        background-position: 700px 20px,80px 170px;">
-            <div class="about-text">
-                    <h4>How I Started...</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia repellat totam odit sit! Numquam praesentium itaque cumque eos ducimus! Corrupti rem et totam, sit magnam asperiores alias rerum dignissimos qui architecto est officiis facilis autem blanditiis optio, nisi ducimus minima ipsa nemo illo magni. Dolorum, veritatis doloribus ipsam tempore cum facere sint cupiditate consequuntur earum. Voluptatibus ipsa quibusdam ullam iusto corporis error fugit, placeat eligendi libero, necessitatibus ut unde quidem, quisquam fugiat! Adipisci odio modi ad vero assumenda rem, temporibus dicta odit. Modi deleniti aut animi repellat tenetur accusantium totam assumenda saepe, ratione quis beatae similique magnam cum alias!</p>
+        <section class="container about-me" style="
+        background-image: url('images/about-shape.png');
+        background-repeat: no-repeat;
+        background-position: 150px 80px;">
+            <div class="about">
+                <div class="about-text">
+                    <h4 id="about-me">How I Started...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia repellat totam odit sit! Numquam praesentium itaque cumque eos ducimus! Corrupti rem et totam, sit magnam asperiores alias rerum dignissimos qui architecto est officiis facilis autem blanditiis optio, nisi ducimus minima ipsa nemo illo magni. Dolorum, veritatis doloribus ipsam tempore cum facere sint cupiditate consequuntur earum. Voluptatibus ipsa quibusdam ullam iusto corporis error fugit, placeat eligendi libero, necessitatibus ut unde quidem, quisquam fugiat! Adipisci odio modi ad vero assumenda rem, temporibus dicta odit. Modi deleniti aut animi repellat tenetur accusantium totam assumenda saepe, ratione quis beatae similique magnam cum alias!</p>    
+                </div>
+                <div class="about-img">
+                    <img src="images/jesse-about-me.jpg">
+                </div>
             </div>
         </section>
+        <!-- resume section -->
+        <section id="resume" class="container resume">
+            <h3 class="open"><strong><u>Resume</u></strong></h3>
+           <!-- image, overview, skills columns -->
+            <div class="resume-open">
+                <!-- image div -->
+                <div class="resume-img">
+                    <img src="images/resume-img.jpg">
+                 </div>
+                 <!-- overview div -->
+                <div class="title-and-details">
+                    <h3>Overview</h3>
+                    <ul>
+                        <li><strong>Location: </strong>New York, NY</li>
+                        <li><strong>Height: </strong>6'1"</li>
+                        <li><strong>Weight: </strong>190lbs</li>
+                        <li><strong>Hair: </strong>Blonde</li>
+                        <li><strong>Eyes: </strong>Blue</li> 
+                        <li><strong>Vocal Range: </strong>Bass/Baritone</li> 
+                        <li><strong>Union Status: </strong>Non-Union</li> 
+                    </ul>
+                    <button>Download Resume</button>
+                </div>
+                <!-- skills div -->
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Location: </strong>New York, NY</li>
+                        <li><strong>Height: </strong>6'1"</li>
+                        <li><strong>Weight: </strong>190lbs</li>
+                        <li><strong>Hair: </strong>Blonde</li>
+                        <li><strong>Eyes: </strong>Blue</li> 
+                        <li><strong>Vocal Range: </strong>Bass/Baritone</li> 
+                        <li><strong>Union Status: </strong>Non-Union</li> 
+                    </ul>
+                    <button>Contact</button>
+                </div>
+            </div>
+            <!-- credits -->
+            <div class="credits">
+                <h3>Film</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae molestias ut, ullam ipsam expedita qui cum culpa tempore dolores reiciendis ad quibusdam, ab placeat unde nobis veritatis reprehenderit neque?</p>
+                <h3>Television</h3>  
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae molestias ut, ullam ipsam expedita qui cum culpa tempore dolores reiciendis ad quibusdam, ab placeat unde nobis veritatis reprehenderit neque?</p>  
+                <h3>Theater</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae molestias ut, ullam ipsam expedita qui cum culpa tempore dolores reiciendis ad quibusdam, ab placeat unde nobis veritatis reprehenderit neque?</p>    
+            </div>
+             </section>
     </main>
 
 
