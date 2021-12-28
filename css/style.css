@@ -251,13 +251,8 @@ header li {
     padding: 50px 100px;
 }
 
-.contact ul {
-    padding: 0px;
-    list-style-type: none;
-}
-
-.contact li {
-    padding: 5px;
+.contact p {
+    padding: 2px;
     text-decoration: none;
 }
 
@@ -341,6 +336,7 @@ button:hover {
 @media screen and (max-width: 900px) {
     .container {
         padding: 10px 0px;
+        margin: 0px;
     }
     .about-img {
         display: none;
