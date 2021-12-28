@@ -321,6 +321,7 @@ button:hover {
 .email {
     text-decoration: none;
     color: #264653;
+    text-align: center;
 }
 
 .email:hover {
@@ -378,6 +379,6 @@ button:hover {
     .gallery-row-1{
         justify-content: center;
     }
-    .contact-cont {
+    .contact {
         justify-content: center;
     }
