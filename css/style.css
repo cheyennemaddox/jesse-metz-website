@@ -32,6 +32,7 @@ header p {
 }
 
 .container {
+    background: #264653;
     max-width: 1080px;
     padding: 0 50px;
     margin: 0 auto;
@@ -39,7 +40,7 @@ header p {
 
 .cont-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 76px;
 }
@@ -51,17 +52,21 @@ header li {
 /* feature */
 
 .feature-1 {
-    padding: 150px 300px;
+    padding: 150px 60px;
     background-color: #e07a5f;
     text-align: center;
+}
+
+.feature-text{
+    /* border: 4px solid red; */
 }
 
 .text-main {
     background-color: #f4f1de;
     opacity: .8;
-    padding: 10px;
+    padding: 10px 0px;
     border-radius: 10px;
-    margin: 10px 50px;
+    margin: 10px 225px;
     font-size: 50px;
     color: #264653;
 }
@@ -83,7 +88,8 @@ header li {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 110px;
+
 }
 
 .about-text p {
@@ -101,8 +107,8 @@ header li {
 
 /* resume */
 .resume {
-    background-color: white;
-    padding: 40px 150px;
+    background-color: #f4f1de;
+    padding: 40px 120px;
 }
 
 /* resume image, overview, skills */
@@ -134,6 +140,68 @@ header li {
     padding: 0px 0px 20px;
 }
 
+/* credits */
+.credits {
+    background-color: #f4f1de;
+    padding: 0px 40px;
+}
+
+.credits ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.credits li {
+    padding: 5px 20px 5px 0px;
+}
+
+.credits p {
+    letter-spacing: .5px;
+    padding: 0px 0px 20px;
+}
+
+.television {
+    padding: 20px 80px
+}
+
+.television-cont {
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+.film {
+    padding: 20px 80px;
+
+}
+
+.film-cont {
+    display: flex;
+    justify-content:center;
+
+}
+.theater {
+    padding: 20px 80px;
+}
+
+.theater-cont {
+    display: flex;
+    justify-content:center;
+    padding: 0 0 10px;
+
+}
+
+.commercial {
+    padding: 20px 80px;
+}
+
+.commercial-cont {
+    display: flex;
+    justify-content:center;
+    padding: 0px 0px 10px;
+
+}
+
 /* gallery */
 
 .gallery {
@@ -156,20 +224,22 @@ header li {
 
 .gallery-row-1 h3 {
     font-size: 40px;
+    justify-content: center;
 }
 
 .gallery-row-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
+    flex-wrap: wrap;
 }
 
 .gallery img {
     max-width: 250px;
     height: auto;
     padding: 0px;
-    margin: 0px;
+    margin: 25px;
     outline:3px solid #f4f1de;
     outline-offset: 5px;
 }
@@ -239,12 +309,21 @@ h5 {
 
 button {
     background-color: #264653;
-    color: #f4f1de;
+    color:white;
     padding: 14px 30px;
-    text-decoration: none;
     margin-top: 32px;
     border-radius: 10px;
     min-width: 200px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #e07a5f;
+    color: #264653;
 }
 
 .email {
@@ -259,4 +338,50 @@ button {
 .home-button {
     text-decoration: none;
     color: #f4f1de;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+    .about-img {
+        display: none;
+    }
+    .nav-link {
+        display: none;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .resume-open {
+        justify-content: center;
+    }
+    .title-and-details {
+        margin: 10px;
+        text-align: center;
+    }
+    .skills {
+        margin: 10px;
+        text-align: center;
+    }
+    .text-main {
+        margin: 0px 10px;
+    }
+    .film {
+        padding: 30px 0px;
+        margin: 0px;
+    }
+    .theater {
+        padding: 30px 0px;
+        margin: 0px;
+    }
+    .commercial {
+        padding: 30px 0px;
+        margin: 0px;
+    }
+    .gallery-row-1{
+        justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    
 }
