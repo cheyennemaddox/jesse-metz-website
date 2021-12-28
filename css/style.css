@@ -339,6 +339,11 @@ button:hover {
         padding: 10px 0px;
         margin: 0px;
     }
+    .feature-1 {
+        background-image: url('images/feature-img.jpeg');
+        background-repeat: no-repeat;
+        background-position:left;
+    }
     .about-img {
         display: none;
     }
@@ -346,7 +351,7 @@ button:hover {
         display: none;
     }
     .about-text {
-        text-align: center;
+        display: none;
     }
     .resume-open {
         flex-wrap: wrap;
