@@ -340,9 +340,7 @@ button:hover {
         margin: 0px;
     }
     .feature-1 {
-        background-image: url('images/feature-img.jpeg');
-        background-repeat: no-repeat;
-        background-position:left;
+        background-image: url('images/feature-img-reverse.jpeg');
     }
     .about-img {
         display: none;
