@@ -340,7 +340,7 @@ button:hover {
 
 @media screen and (max-width: 900px) {
     .container {
-        max-width: 875px;
+        padding: 10px 0px;
     }
     .about-img {
         display: none;
@@ -378,7 +378,6 @@ button:hover {
     .gallery-row-1{
         justify-content: center;
     }
-    .contact-cont {
-        justify-content: center;
-        margin: 0px;
+    .email {
+        text-align: center;
     }
