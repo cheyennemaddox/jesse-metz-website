@@ -252,7 +252,9 @@ header li {
 }
 
 .contact p {
-    text-align: center;
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
     padding: 2px;
     text-decoration: none;
 }
